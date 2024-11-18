@@ -710,7 +710,7 @@ video {
 }
 
 .bg-image {
-  background-image: url('/src/images/bg.jpg');
+  background-image: url('../../src/images/bg.jpg');
 }
 
 .p-2 {
