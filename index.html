@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wheather app</title>
+  <link rel="stylesheet" href="./public/css/output.css">
+</head>
+<body class="flex justify-center items-center min-h-screen gradient">
+    <div class="container w-full">
+      <div class="mx-auto lg:h-[560px] w-10/12 backdrop-blur-[100px] flex lg:flex-row flex-col shadow-lg bgImage text-slate-50 rounded-lg relative">
+        <!-- render display start -->
+        <div class="render my-4 lg:w-[80%] h-full"></div>
+        <!-- render display end -->
+
+        <!-- search section start-->
+        <div class="bg-slate-600/50 p-4 relative">
+          <div class="mt-2 flex w-full h-10">
+            <input type="text" class="search p-2 bg-transparent ring-1 ring-slate-200 outline-none rounded-md w-[80%]  mr-2" placeholder="search city">
+            <button class="bg-slate-800 hover:bg-slate-900 rounded-md flex items-center justify-center p-4 searchBtn " onclick="showWeather(searchLocation.value)">search</button>
+          </div>
+          <h1 class="text-base my-4 border-b-[1px] pb-1 border-slate-50">Populer City</h1> 
+          <div class="my-4 flex flex-col gap-2 ">
+          <p class="cardCity">Jakarta</p>
+          <p class="cardCity">New York</p>
+          <p class="cardCity">Tokyo</p>
+          <p class="cardCity">Dubai</p>
+          <p class="cardCity">Paris</p>
+          <p class="cardCity">London</p>
+          <p class="cardCity">Hong Kong</p>
+          </div>
+          <div class="mx-auto hidden pt-10 lg:block">
+            <h1 class="text-center">Developed by <span class="bg-white/60 px-2 rounded-sm pt-1 pb-2 text-[#466DB2] font-medium"><a href="https://github.com/Ekoysrn" target="_blank">Ekoyusron</a></span></h1>
+          </div>
+        </div>
+        <!-- search section end -->
+
+      </div>
+    </div>
+  <script src="./src/js/script.js"></script>
+</body>
+</html>

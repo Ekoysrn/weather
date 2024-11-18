@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  background : linear-gradient(#466DB2,#A47192,#DDA08D);
+}
+
+.bgImage {
+  @apply bg-[url('/src/images/bg.jpg')] bg-no-repeat lg:bg-[center_top_-3rem] bg-center bg-cover; 
+}
+
+.cardCity {
+  @apply cursor-pointer text-gray-100 bg-gray-700 bg-opacity-40 px-3 py-1 rounded hover:bg-gray-200 hover:text-amber-800 hover:scale-105 duration-300
+}
