@@ -7,7 +7,7 @@
 }
 
 .bgImage {
-  @apply bg-[url('/src/images/bg.jpg')] bg-no-repeat lg:bg-[center_top_-3rem] bg-center bg-cover; 
+  @apply bg-[url('./src/images/bg.jpg')] bg-no-repeat lg:bg-[center_top_-3rem] bg-center bg-cover; 
 }
 
 .cardCity {
