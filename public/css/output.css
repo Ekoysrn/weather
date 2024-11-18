@@ -709,15 +709,7 @@ video {
   background-color: rgb(255 255 255 / 0.6);
 }
 
-.bg-\[url\(\'\/images\/bg\.jpg\'\)\] {
-  background-image: url('/images/bg.jpg');
-}
-
-.bg-\[url\(\'src\/images\/bg\.jpg\'\)\] {
-  background-image: url('src/images/bg.jpg');
-}
-
-.bg-\[url\(\'\/src\/images\/bg\.jpg\'\)\] {
+.bg-image {
   background-image: url('/src/images/bg.jpg');
 }
 
